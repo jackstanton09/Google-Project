@@ -4,10 +4,14 @@ body{
 
 body {
     background-color: #ffffff;
-	color: #f3ebeb;
+	color: #000000;
 }
 
-.para {
+body .para{
     font-family: 'Segoe UI', Tahoma, sans-serif;
     font-size: 81.25%;
+}
+
+body #hw{
+    color: teal;
 }
