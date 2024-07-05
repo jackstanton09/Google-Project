@@ -1,9 +1,5 @@
-body #google{
-    font-family: 'Segoe UI', Tahoma, sans-serif;
-    font-size:80px;
-    background-color: #ffffff;
-	color: #cc1d1d;
-    text-align: center;
-    padding-top: 12.5%;
+.center{
+    display: block;
+    margin:auto;
+    padding-top: 124px;
 }
-
