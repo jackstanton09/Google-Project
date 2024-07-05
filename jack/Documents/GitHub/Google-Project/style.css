@@ -3,6 +3,11 @@ body{
 }
 
 body {
-    background-color: #386ee2;
+    background-color: #ffffff;
 	color: #f3ebeb;
+}
+
+.para {
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+    font-size: 81.25%;
 }
