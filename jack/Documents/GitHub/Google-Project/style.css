@@ -2,13 +2,10 @@ body{
     font:normal 30 px Arial, Helevtica, sans-serif;
 }
 
-body .para{
+body .google{
     font-family: 'Segoe UI', Tahoma, sans-serif;
     font-size: 81.25%;
     background-color: #ffffff;
 	color: #000000;
 }
 
-body .google{
-    color: teal;
-}
