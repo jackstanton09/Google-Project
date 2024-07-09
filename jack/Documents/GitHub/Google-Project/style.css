@@ -3,3 +3,58 @@
     margin:auto;
     padding-top: 124px;
 }
+
+.search{
+    padding: 15px 50px;
+    border-radius: 100px;
+    width: 560px;
+    font-size: 15px;
+}
+
+.search{
+    border: 1px solid rgb(235, 235, 235)
+}
+
+input:focus::placeholder{
+    color: transparent;
+}
+
+.container{
+    width:10px ;
+    padding-top: 2%;
+    padding-right: 28.5%;
+    margin: auto;
+}
+
+.gmail{
+    border: none;
+    background-color:inherit;
+    cursor: pointer;
+    font-size: 13px;
+    display: incline-block;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-family: Arial, sans-serif;
+}
+.gmail{
+    position: fixed;
+    left: 89.15%;
+    top: 2.40%;
+}
+
+.img{
+    border: none;
+    background-color:inherit;
+    cursor: pointer;
+    font-size: 13px;
+    display: incline-block;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-family: Arial, sans-serif;
+}
+
+.img{
+    position: fixed;
+    left: 91.75%;
+    top: 2.40%;
+}
