@@ -108,12 +108,11 @@ text-decoration: underline;
 }
 
 .sign:hover{
-    border: 2px solid black;
+    border: 0px solid transparent;
     border-radius: 5%;
     background-color: rgb(224, 224, 224);
-    padding: 25px 40px 50px 40px;
+    padding: 30px 40px 50px 40px;
     left: 47.255%;
     top: 35.125%;
-    position: fixed;
-    display: flex;
+    display: block;
 }
