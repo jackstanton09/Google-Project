@@ -7,11 +7,8 @@
 .search{
     padding: 15px 50px;
     border-radius: 100px;
-    width: 560px;
-    font-size: 15px;
-}
-
-.search{
+    width: 562.5px;
+    font-size: 14.5px;
     border: 1px solid rgb(235, 235, 235)
 }
 
@@ -20,10 +17,10 @@ input:focus::placeholder{
 }
 
 .container{
-    width:10px ;
-    padding-top: 2%;
-    padding-right: 28.5%;
     margin: auto;
+    position: fixed;
+    left: 35.5%;
+    top: 27.5%;
 }
 
 .gmail{
@@ -84,4 +81,39 @@ text-decoration: underline;
     left: 58.125%;
     top: 20.125%;
     scale: 0.11;
+}
+
+.sign{
+    position: fixed;
+    display: block;
+    margin: auto;
+    left: 48.75%;
+    top: 36.125%;
+    padding: 11px;
+    border: 1px solid transparent;
+    border-radius: 100px;
+    background-color: #e4e4e4;
+    background-repeat: no-repeat;
+}
+
+.in{
+    position: fixed;
+    display: block;
+    margin: auto;
+    left: 49%;
+    top: 43%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 78.75%;
+    text-decoration: none;
+}
+
+.sign:hover{
+    border: 2px solid black;
+    border-radius: 5%;
+    background-color: rgb(224, 224, 224);
+    padding: 25px 40px 50px 40px;
+    left: 47.255%;
+    top: 35.125%;
+    position: fixed;
+    display: flex;
 }
