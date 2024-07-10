@@ -36,6 +36,11 @@ input:focus::placeholder{
     color: rgb(0, 0, 0);
     font-family: Arial, sans-serif;
 }
+
+.gmail:hover{
+text-decoration: underline;
+}
+
 .gmail{
     position: fixed;
     left: 89.15%;
@@ -57,4 +62,26 @@ input:focus::placeholder{
     position: fixed;
     left: 91.75%;
     top: 2.40%;
+}
+
+.img:hover{
+    text-decoration: underline;
+    }
+
+.mic{
+    display: block;
+    margin:auto;
+    position: fixed;
+    left: 60.5%;
+    top: 29%;
+    scale: 0.85;
+}
+
+.cam{
+    display: block;
+    margin:auto;
+    position: fixed;
+    left: 58.125%;
+    top: 20.125%;
+    scale: 0.11;
 }
