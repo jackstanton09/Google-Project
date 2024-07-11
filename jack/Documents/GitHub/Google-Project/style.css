@@ -111,8 +111,48 @@ text-decoration: underline;
     border: 0px solid transparent;
     border-radius: 5%;
     background-color: rgb(224, 224, 224);
-    padding: 30px 40px 50px 40px;
+    padding: 33px 40px 50px 40px;
     left: 47.255%;
-    top: 35.125%;
+    top: 34.125%;
+}
+
+.chrome{
+    position: fixed;
     display: block;
+    margin: auto;
+    left: 42.75%;
+    top: 36.125%;
+    padding: 7.5px;
+    border: 1px solid transparent;
+    border-radius: 100px;
+    background-color: #e4e4e4;
+    background-repeat: no-repeat;
+}
+
+.web{
+    position: fixed;
+    display: block;
+    margin: auto;
+    left: 42%;
+    top: 43%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 78.75%;
+    text-decoration: none;
+}
+
+.chrome:hover{
+    border: 0px solid transparent;
+    border-radius: 5%;
+    background-color: rgb(224, 224, 224);
+    padding: 28px 40px 50px 40px;
+    left: 41%;
+    top: 33.725%;
+}
+
+.lookup{
+    position: fixed;
+    display: block;
+    top: 29.25%;
+    left: 36.5%;
+    scale: 1.25;
 }
