@@ -1,13 +1,27 @@
 .center{
-    display: block;
     margin:auto;
+    width: 50%;
+}
+
+.google{
+    margin: auto;
     padding-top: 124px;
+    padding-left: 43.25%;
+}
+
+.container2{
+    position: relative;
+    margin: 40px 0 0 0;
+    width: 745px;
+    border: 1px solid rgb(0, 0, 0)
 }
 
 .search{
-    padding: 15px 50px;
+    padding: 17px 50px;
+    position: relative;
+    margin: 40px 0 0 0;
     border-radius: 100px;
-    width: 562.5px;
+    width: 745px;
     font-size: 14.5px;
     border: 1px solid rgb(235, 235, 235)
 }
@@ -16,11 +30,13 @@ input:focus::placeholder{
     color: transparent;
 }
 
-.container{
+.container1{
+    position: relative;
+    border: 2px solid black;
+    width: 200px;
+    padding: 10px 25px 10px 10px ;
     margin: auto;
-    position: fixed;
-    left: 35.5%;
-    top: 27.5%;
+    left: 42%;
 }
 
 .gmail{
@@ -28,7 +44,6 @@ input:focus::placeholder{
     background-color:inherit;
     cursor: pointer;
     font-size: 13px;
-    display: incline-block;
     text-decoration: none;
     color: rgb(0, 0, 0);
     font-family: Arial, sans-serif;
@@ -38,27 +53,16 @@ input:focus::placeholder{
 text-decoration: underline;
 }
 
-.gmail{
-    position: fixed;
-    left: 89.15%;
-    top: 2.40%;
-}
-
 .img{
+    position: relative;
     border: none;
     background-color:inherit;
     cursor: pointer;
     font-size: 13px;
-    display: incline-block;
     text-decoration: none;
     color: rgb(0, 0, 0);
     font-family: Arial, sans-serif;
-}
-
-.img{
-    position: fixed;
-    left: 91.75%;
-    top: 2.40%;
+    left: 5%;
 }
 
 .img:hover{
@@ -66,25 +70,23 @@ text-decoration: underline;
     }
 
 .mic{
-    display: block;
     margin:auto;
-    position: fixed;
+    position: relative;
     left: 60.5%;
-    top: 29%;
+    top: 28.75%;
     scale: 0.85;
 }
 
 .cam{
-    display: block;
     margin:auto;
-    position: fixed;
+    position: relative;
     left: 58.125%;
-    top: 20.125%;
+    top: 19.85%;
     scale: 0.11;
 }
 
 .sign{
-    position: fixed;
+    position: relative;
     display: block;
     margin: auto;
     left: 48.75%;
@@ -97,7 +99,7 @@ text-decoration: underline;
 }
 
 .in{
-    position: fixed;
+    position: relative;
     display: block;
     margin: auto;
     left: 49%;
@@ -117,7 +119,7 @@ text-decoration: underline;
 }
 
 .chrome{
-    position: fixed;
+    position: relative;
     display: block;
     margin: auto;
     left: 42.75%;
@@ -130,7 +132,7 @@ text-decoration: underline;
 }
 
 .web{
-    position: fixed;
+    position: relative;
     display: block;
     margin: auto;
     left: 42%;
@@ -150,9 +152,41 @@ text-decoration: underline;
 }
 
 .lookup{
-    position: fixed;
-    display: block;
-    top: 29.25%;
-    left: 36.5%;
+    position: relative;
+    left: 40%;
     scale: 1.25;
+}
+
+.plus{
+    position: relative;
+    display: block;
+    margin: auto;
+    left: 54.75%;
+    top: 36.35%;
+    padding: 7.5px;
+    border: 1px solid transparent;
+    border-radius: 100px;
+    background-color: #b5e1ff;
+    background-repeat: no-repeat;
+    scale: 1.15;
+}
+
+.minus{
+    position: relative;
+    display: block;
+    margin: auto;
+    left: 53.85%;
+    top: 43%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 78.75%;
+    text-decoration: none;
+}
+
+.plus:hover{
+    border: 0px solid transparent;
+    border-radius: 5%;
+    background-color: #b5e1ff;
+    padding: 24px 40px 50px 40px;
+    left: 53%;
+    top: 34.725%;
 }
