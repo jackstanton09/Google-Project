@@ -1,0 +1,119 @@
+html, body {
+    font-family: Arial, Helevtica, sans-serif;
+    color: #555555;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: green;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: red;
+}
+
+/**
+ * Header Styles
+ **/
+header {
+    padding: 20px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.header-container {
+    display: flex;
+    width: 250px;
+    justify-content: space-between;
+}
+
+/**
+ * Main Section Styles
+ *
+ * .class = points to a class
+ * nothing = html element
+ * :state = state of element
+ **/
+
+section {
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    text-align: center;
+}
+
+.logo-container {
+    margin-bottom: 20px;
+}
+
+.search-container input {
+    width: 100%;
+    padding: 20px;
+    padding-right: 30px;
+}
+
+.button-container {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    max-width: 300px;
+    margin-left:auto ;
+    margin-right: auto;
+}
+
+.search-container {
+    position: relative;
+}
+
+.search-icons {
+    position: absolute;
+    top: 15px;
+    right: 5px;
+}
+
+.search-icons button {
+    background: none;
+    border: none;
+    padding: 0;
+    margin-left: 5px;
+}
+
+.search-icons button img {
+    width: 25px;
+}
+
+.icon {
+    width: 90px;
+    height: 90px;
+    transition: all 0.1s ease-in-out;
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+.icon img{
+    width: 30px;
+}
+
+.icon p{
+    margin: 0;
+    font-size: 12px;
+}
+
+.icon:hover { 
+    transform: scale(1.2);
+    background-color: #efefef;
+}
+
+.icon:hover a {
+    color: green;
+    text-decoration: none;
+}
